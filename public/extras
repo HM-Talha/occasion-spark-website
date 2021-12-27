@@ -1,0 +1,373 @@
+/* <i class="far fa-bars"></i> */
+
+
+/* <!-- section for experience --> */
+    /* <main>
+        <div>
+            <aside>
+
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-sm">
+                            <h1>Event Marketing <br><span class="serv">Services</span></h1>
+                        </div>
+                        <div class="col-sm">
+                            <p>
+                                Event experiences come in many formats. They can be live, virtual and sometimes both. These brand experiences should make an impact. Be flexible, dynamic, personalized and connected. We do this through inspiring stories that captivate audiences, no matter where they happen to be.
+                            </p>
+                            <p>
+                                <b class="exper"><em>Virtual Experiences.</em></b> Entirely digital, our virtual experiences use the power of technology to tell your brand’s story. We know how to convey a sense of community and inclusiveness – even online, and we’re skilled at blending format, scale, technology and engagement. We never repackage an experience that was meant to be live. We reframe it for an audience who is in an entirely different mindset, and location. Virtual roundtables, 1:1 virtual networking, streamed keynotes and even online discussion led breakout sessions. Our list of capabilities is endless.
+                            </p>
+                            <p>
+                                <b class="exper"><em>Hybrid Experiences.</em></b> We experience life and interact with people and brands in many ways – online, offline and often at the same time. Hybrid experiences combine live, on-demand, in-person and remote elements in high-touch environments using a combination of data, content and digital design and development. These flexible and connected experiences are driven by dynamic, personalized content which comes together to create a unique experience for your brand.
+                            </p>
+                            <p>
+                                <b class="exper"><em>Live Experiences.</em></b> In a hyper digital world, we crave unique, live, face to face experiences that connect us to the real world and to each other. We create sensory moments – where you can touch, feel, sometimes taste and even smell a brand in person. From entire conferences and keynotes to public events and even intimate press or influencer experiences, our event marketing professionals create real-time moments that move, inspire and engage people.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </aside>
+        </div>
+    </main>
+
+
+    <a href="https://wa.me/+923423546010" target="_blank">
+        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+    </a> */
+
+
+
+
+.serv {
+    border-bottom: 5px solid crimson;
+}
+.exper:hover {
+    color: crimson;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* ---another section--- */
+.stepContainer .step {
+    border: 2px solid crimson;
+    /* height: 70vh; */
+    background-color: #fff;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem grey;
+}
+
+.stepContainer .step span {
+    font-size: 5rem;
+    color: crimson;
+    font-weight: bolder;
+}
+
+.stepContainer .step h3 {
+    font-size: 2rem;
+    color: black;
+}
+
+.stepContainer .step p {
+    font-size: 1rem;
+    color: black;
+}
+
+.stepContainer .step a {
+    border: 1px solid black;
+    font-size: 17px;
+    padding: 10px 17px;
+    color: black;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.stepContainer .step a:hover {
+    background-color: #e65f7c;
+    color: white;
+    text-decoration: none;
+    border: none;
+
+}
+
+/* --vendpr section--- */
+.box {
+    overflow: hidden;
+    position: relative;
+    border-radius: .5rem;
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.box img {
+    box-shadow: 0 .5rem 1rem grey;
+    height: 20rem;
+    width: 100%;
+    transform: scale(1) !important;
+
+}
+
+.box img:hover {
+    transform: scale(2.3);
+}
+
+
+.box .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 99.9%;
+    background: rgba(254, 254, 254, .8);
+    text-align: center;
+    transform: scale(2.3);
+    opacity: 0;
+}
+
+.box .info:hover {
+    transform: scale(1);
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.box img:hover {
+    transform: scale(1) !important;
+}
+
+.box .info h3 {
+    font-size: 2rem;
+    color: black;
+}
+
+.box .info p {
+    font-size: 1rem;
+    color: #666;
+    padding: 1rem;
+}
+
+.box .info a {
+    border: 1px solid black;
+    font-size: 17px;
+    padding: 10px 17px;
+    color: black;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.box .info a:hover {
+    background-color: #e65f7c;
+    color: white;
+    text-decoration: none;
+    border: none;
+
+}
+
+/* ---client Portion--- */
+.clientPortion {
+    display: flex;
+}
+
+/* .divider { */
+/* padding: 1rem 1rem; */
+/* border: 2px solid black !important; */
+/* } */
+
+.clientBox img {
+    padding: 0;
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 25px solid wheat;
+    box-shadow: 0 .5rem 1rem black;
+}
+
+.clientInfo {
+    padding: 2rem 0;
+}
+
+.box2 {
+    /* border: 2px solid ; */
+    /* margin: 10px 50xp; */
+    padding: 0 10px;
+}
+
+.clientInfo p {
+    font-size: 1rem;
+}
+
+.clientInfo h3 {
+    font-size: 1.7rem;
+}
+
+.clientInfo i {
+    /* font-size: 1.7rem; */
+    color: #e65f7c;
+    font-size: 10px;
+}
+
+
+/* ----slidder--- */
+#slider {
+    position: relative;
+    width: 50%;
+    height: 30vw;
+    margin: 80px auto;
+    font-family: 'Helvetica Neue', sans-serif;
+    perspective: 1400px;
+    transform-style: preserve-3d;
+}
+
+input[type=radio] {
+    position: relative;
+    top: 108%;
+    left: 50%;
+    width: 18px;
+    height: 18px;
+    margin: 0 15px 0 0;
+    opacity: 0.4;
+    transform: translateX(-83px);
+    cursor: pointer;
+}
+
+
+input[type=radio]:nth-child(5) {
+    margin-right: 0px;
+}
+
+input[type=radio]:checked {
+    opacity: 1;
+}
+
+
+
+
+#slider label {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 400ms ease;
+}
+
+.slidermainbox {
+    border: 2px solid transparent;
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    padding: 0px 10px 30px 10px;
+
+
+}
+
+.sliderBox {
+
+    background-image: url(./images/card-bg.png);
+    background-repeat: no-repeat;
+    /* position: relative; */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 40px !important; */
+
+}
+
+#slide1 {
+    background-image: url(./images/slider1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 140% !important; */
+}
+
+#slide2 {
+    background-image: url(./images/slider2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: red;
+}
+
+#slide3 {
+    background-image: url(./images/slider3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#slide4 {
+    background-image: url(./images/slider4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#slide5 {
+    background-image: url(./images/slider5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+/* Slider Functionality */
+
+/* Active Slide */
+#s1:checked~#slide1, #s2:checked~#slide2, #s3:checked~#slide3, #s4:checked~#slide4, #s5:checked~#slide5 {
+    box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3), 0 12px 6px rgba(0, 0, 0, 0.2);
+    transform: translate3d(0%, 0, 0px);
+}
+
+#s1, #s2, #s3, #s4, #s5 {
+    display: none;
+}
+
+/* Next Slide */
+#s1:checked~#slide2, #s2:checked~#slide3, #s3:checked~#slide4, #s4:checked~#slide5, #s5:checked~#slide1 {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
+    transform: translate3d(15%, 0, -100px);
+}
+
+
+/* Next to Next Slide */
+#s1:checked~#slide3, #s2:checked~#slide4, #s3:checked~#slide5, #s4:checked~#slide1, #s5:checked~#slide2 {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    transform: translate3d(30%, 0, -250px);
+}
+
+/* Previous to Previous Slide */
+#s1:checked~#slide4, #s2:checked~#slide5, #s3:checked~#slide1, #s4:checked~#slide2, #s5:checked~#slide3 {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    transform: translate3d(-30%, 0, -250px);
+}
+
+/* Previous Slide */
+#s1:checked~#slide5, #s2:checked~#slide1, #s3:checked~#slide2, #s4:checked~#slide3, #s5:checked~#slide4 {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
+    transform: translate3d(-15%, 0, -100px);
+}
+
+
+
+We found the ocassion sparks team to be punctual and very reliable.
+Recommended for headache free planning.
+                                I would like occasions sparks to add smaller generators to their arsenal. The only thing we needed to arrange privately

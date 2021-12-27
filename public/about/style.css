@@ -1,0 +1,498 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-transform: capitalize;
+
+}
+
+
+
+/* navbar and background image */
+
+.topDiv {
+    height: 100vh;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url(./images/backdp.jpg); */
+    /* background-attachment: fixed; */
+    /* background-repeat: no-repeat; */
+    background-size: 100%;
+    /* width: 100%; */
+
+}
+
+.logo {
+    width: 90px;
+}
+
+@media only screen and (max-width: 600px) {
+    .topDiv {
+        /* height: 20px; */
+    }
+
+    .logo {
+        width: 60px;
+    }
+}
+
+.myNavBar {
+    color: white !important;
+    background-color: transparent !important;
+    /* position: sticky; */
+    /* top: 0%; */
+}
+
+.bsNavLinks {
+    color: white !important;
+    transition: 0.5s;
+}
+
+.bsNavLinks:hover {
+    color: #e65f7c !important;
+    text-decoration: underline;
+}
+
+.myIcon {
+    color: white !important;
+    /* border: 2px solid white !important; */
+    font-size: 20px;
+
+}
+
+.osNmSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    position: relative;
+}
+
+.osNmSec h1 {
+    font-size: 60px;
+
+}
+
+.osName {
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    font-size: 50px;
+    /* border: 2px solid white; */
+    margin-top: -30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+/* border: 2px solid white; */
+/* border: 2px solid; */
+
+/* <!-- section for experience --> */
+
+/* --footer-- */
+.mainFooter {
+    background-color: crimson;
+    position: absolute;
+    width: 100%;
+
+}
+
+.mainFooter footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainFooter footer p {
+    padding-top: 10px;
+    color: white;
+
+}
+
+.mainFooter footer a {
+    /* border: 2px solid black; */
+    background: transparent;
+    color: white;
+    /* height: 20px; */
+    font-size: 30px;
+    /* width: 50px !important; */
+}
+
+.mainFooter footer a i {
+    width: 50px;
+    text-align: center;
+}
+
+.mainFooter footer a:hover {
+    color: crimson;
+    background: white;
+    transition: 0.5s;
+}
+
+/* ---about page start---- */
+.aboutTopDiv {
+    /* background-color: black; */
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url(../images/aboutbg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* width: 100%; */
+
+}
+
+.aboutHeading {
+    width: 100%;
+    font-size: 50px;
+}
+
+.aboutHeading h1 {
+    color: white !important;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.aboutHeading h1 span {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0px;
+    color: crimson;
+    top: 70px;
+
+}
+
+/* ---team Info--- */
+.teamInfo {
+    border: 5rem solid #F5DEB3;
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.teamBpx p, .teamBpx h3, .teamBpx h5 {
+    padding: 1px 10px 3px 10px;
+    text-align: center;
+    /* border: 1px solid black !important; */
+
+}
+
+.teamBpx h3 {
+    margin-top: 15px;
+
+}
+
+.teamBpx {
+    border-bottom: 4px solid crimson;
+    /* position: relative; */
+
+}
+
+.teamBpx img {
+    width: 100%;
+    transform: scale(1);
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+
+.teamBpx img:hover {
+    transform: scale(1.1);
+}
+
+.teamBpx div i {
+    /* border: 1px solid black !important; */
+    margin-bottom: 10px;
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+
+/* ---meadia query--section---- */
+@media only screen and (max-width:600px) {
+    h1 {
+        font-size: 20px !important;
+    }
+
+    .osName {
+        font-size: 25px !important;
+        font-weight: 600;
+
+    }
+
+    .aboutHeading {
+        position: relative;
+        /* border: 1px solid white !important; */
+        /* margin-bottom: 50px !important; */
+    }
+
+    .aboutHeading h1 {
+        position: absolute;
+        top: 30px;
+    }
+
+    .aboutHeading h1 span {
+        /* border: 1px solid white !important; */
+        position: relative;
+        top: 1%;
+    }
+
+    .os1 {
+        font-size: 10px !important;
+        /* border: 2px solid whi; */
+    }
+
+    .osNmSec {
+        height: 180px;
+    }
+
+    .topDiv {
+        height: 560px;
+    }
+
+
+
+}
+
+@media only screen and (max-width:920px) {
+    h1 {
+        font-size: 20px !important;
+
+    }
+
+    .osName {
+        font-size: 45px !important;
+        font-weight: 600;
+
+    }
+
+    .osNmSec {
+        height: 380px;
+    }
+
+
+    .topDiv {
+        height: 500px;
+    }
+
+    .mainFooter footer {
+        flex-flow: column;
+
+    }
+
+    /* .clientPortion {
+        flex-flow: column;
+
+    }    
+
+    .clientPortion img {
+        height: 320px;
+    }    
+
+    .clientBox {
+        display: flex;
+        flex-direction: column-reverse;
+    }    
+
+    .mybox2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }    
+ */
+    /* .divider{
+        display: none;
+    } */
+
+}
+
+@media only screen and (max-width:760px) {
+    h1 {
+        font-size: 20px !important;
+
+    }
+
+    .osName {
+        font-size: 39px !important;
+        font-weight: 600;
+
+    }
+
+    .osNmSec {
+        height: 330px;
+    }
+
+
+    .topDiv {
+        height: 400px;
+    }
+
+
+}
+
+@media only screen and (max-width:500px) {
+    .osName {
+
+        font-size: 25px !important;
+        font-weight: 600;
+
+    }
+
+    .osNmSec {
+        height: 180px;
+    }
+
+    .topDiv {
+        height: 240px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* ---meadia query--section---- */
+@media only screen and (max-width:600px) {
+    .osNmSe h1 {
+        font-size: 25px !important;
+        font-weight: 600;
+
+    }
+
+    .osNmSec {
+        height: 180px;
+    }
+
+    .topDiv {
+        height: 560px;
+    }
+
+    .teamInfo {
+        border: 2rem solid #F5DEB3;
+
+    }
+
+    /* .clientPortion {
+        flex-flow: column;
+
+    }
+
+    .clientPortion img {
+        height: 320px;
+    } */
+
+
+}
+
+@media only screen and (max-width:920px) {
+
+    .osNmSec h1 {
+        font-size: 45px !important;
+        font-weight: 600;
+
+    }
+
+    .osNmSec {
+        height: 380px;
+    }
+
+
+    .topDiv {
+        height: 500px;
+    }
+
+    .mainFooter footer {
+        flex-flow: column;
+
+    }
+
+    /* .clientPortion {
+        flex-flow: column;
+
+    }
+
+    .clientPortion img {
+        height: 320px;
+    }
+
+    .clientBox {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .mybox2 {
+        display: flex;
+        flex-direction: column-reverse; */
+}
+
+
+
+@media only screen and (max-width:760px) {
+
+    .osNmSec h1 {
+        font-size: 39px !important;
+        font-weight: 600;
+        /* border: 2px solid white; */
+        margin-bottom: 80px;
+    }
+
+    .osNmSec {
+        height: 330px;
+    }
+
+
+    .topDiv {
+        height: 360px;
+    }
+
+
+}
+
+@media only screen and (max-width:760px) {
+
+    .osNmSec h1 {
+        font-size: 39px !important;
+        font-weight: 600;
+        /* border: 2px solid white; */
+        margin-bottom: 80px;
+    }
+
+    .osNmSec {
+        height: 330px;
+    }
+
+
+    .topDiv {
+        height: 360px;
+    }
+
+
+}
+
+@media only screen and (max-width:500px) {
+    .osName {
+        font-size: 25px !important;
+        font-weight: 600;
+
+    }
+
+    .osNmSec {
+        font-size: 14px !important;
+        height: 280px;
+    }
+
+    .topDiv {
+        height: 240px;
+    }
+}
